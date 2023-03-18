@@ -1,2 +1,18 @@
-
-/* Your CSS Code here. */
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
+.moviePic {
+  height: 400px;
+  width: 267px;
+  opacity: 0.8;
+} 
+.movieDetail {
+  position: relative;
+  top: -100px;
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+}
